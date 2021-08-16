@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: 100%;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem;
+    height: 4,8rem;
+}
+.header-div{
+    display: flex;
+    padding-right: 0.4rem;
+    padding-left: 3.2rem;
+}
+.header-div_1{
+    display: flex;
+    padding-right: 1.5rem;
+    align-items: center;
+}
+.header-div_1--1{
+    padding-left: 1.5rem;
+}
+.header-div_1--1 a{
+    text-decoration: none;
+    color: black;
+}
+.header-div_1--1 a:hover{
+    text-decoration: underline
+}
+.header-div_1--2{
+    padding: 0.4rem;
+}
+.header-div_1--2 img{
+    padding: 0.4rem;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.header-div_1--3{
+    margin-left: 1rem;
+    padding: 0.4rem;
+}
+.header-div_1--3 img{
+    height: 3rem;
+    width: 3rem;
+}
+.centroarriba{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 29rem;
+}
+.centroarriba img{
+    width: 27rem;
+    height: 9.2rem;
+}
+.form{
+    padding: 2rem;
+    max-height: 16rem;
+}
+.form__div{
+    display: flex;
+    background: #fff;
+    border: 0.1rem solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 2.4rem;
+    height: 4.4rem;
+    margin: 0 auto;
+    max-width: 58.4rem;
+    width: auto;
+}
+.form__div1{
+    flex: 1;
+    display: flex;
+    padding: 0.5rem 0.8rem 1.6rem;
+    padding-left: 1.4rem;
+}
+.form__div1-img{
+    display: flex;
+    align-items: center;
+    padding-right: 1.3rem;
+    margin-top: 1rem;
+}
+.form__div1-img img{
+    width: 2rem;
+    height: 2rem;
+}
+.form_div1-input{
+    display: flex;
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 3.4rem;
+}
+.form_div1-input input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 3.4rem;
+    font-size: 1.6rem;
+}
+.form__div1-img2{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: 0.7rem;
+    align-items: center;
+}
