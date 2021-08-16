@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden
 }
 html {
     font-size: 62.5%;
@@ -9,7 +10,7 @@ html {
 body{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-stretch: 100%;
+    
 }
 .header{
     display: flex;
@@ -89,10 +90,10 @@ body{
     display: flex;
     align-items: center;
     padding-right: 1.3rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
 }
 .form__div1-img img{
-    width: 2rem;
+    width: 3rem;
     height: 2rem;
 }
 .form_div1-input{
@@ -119,6 +120,109 @@ body{
 .form__div1-img2{
     display: flex;
     flex: 0 0 auto;
-    margin-top: 0.7rem;
+    margin-top: 0.4rem;
     align-items: center;
+    padding-right: 0.6rem;
+}
+.form__div1-img2 img{
+    width: 3rem;
+    height: 2rem;
+}
+.form__div2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    top: 5.3rem;
+    padding-top: 1.8rem;
+    height: 7rem;
+    max-width: 58.4rem;
+    min-width: 36rem;
+    width: auto;
+    margin: 0 auto;
+}
+.form__div2-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 1.4rem;
+    margin: 1.1rem 0.4rem;
+    padding: 0 1.6rem;
+    line-height: 0.27rem;
+    height: 3.6rem;
+    min-width: 0.54rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.form__div2-button:hover{
+    border: 1px solid #DCDCDC;
+}
+.div-ofrecido{
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    width: auto;
+    height: 44.2rem;
+    min-width: 40rem;
+}
+.div-ofrecido2{
+    color: #3c4043;
+    line-height: 2.8rem;
+}
+.div-ofrecido2 a{
+    padding: 0 0.3rem;
+    text-decoration: none;
+    color: blue;
+}
+.div-ofrecido2 a:hover{
+    text-decoration: underline;
+}
+.divfooter{
+    flex-shrink: 0;
+}
+.divfooter-Ve{
+    padding: 1.5rem 3rem;
+    border-bottom: 0.1rem solid #dadce0;
+    color: rgba(0, 0, 0, .54);
+    font-size: 1.5rem;
+    
+}
+.divfooter-Ve p{
+    min-width: 34rem;
+}
+.divfooter-links{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.divfooter-links4{
+    display: flex;
+    height: 4.6rem;
+}
+.divfooter-links4 a{
+    color: #70757a;
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+.divfooter-links4 a:hover{
+    text-decoration: underline;
+}
+.divfooter-links3{
+    display: flex;
+    align-items: flex-start;  
+}
+.divfooter-links3 a{
+    color: #70757a;
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+.divfooter-links3 a:hover{
+    text-decoration: underline;
 }
